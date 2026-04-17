@@ -30,12 +30,12 @@ jobs:
         run: pip install jupyter-book
 
       - name: Build JupyterBook
-        run: jupyter-book build . --output-dir _build/html
+        run: jupyter-book build .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html
+          path: _build/html/.doctrees
 
   deploy:
     needs: build

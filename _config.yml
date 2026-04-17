@@ -17,6 +17,9 @@ exclude_patterns:
   - "Thumbs.db"
   - ".DS_Store"
 
+build:
+  dir: _build/html
+
 html_theme: "sphinx_book_theme"
 html_title: "量潮数字资产管理标准"
 html_short_title: "规范"
