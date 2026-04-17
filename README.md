@@ -16,12 +16,4 @@ assets:
     description: 资产描述
 ```
 
-### 字段说明
-
-| 字段 | 必填 | 说明 |
-|------|------|------|
-| `title` | 是 | 资产标题 |
-| `type` | 是 | 资产类型：docs/code/config/experiment |
-| `category` | 是 | 资产分类 |
-| `path` | 是 | 资产路径 |
-| `description` | 是 | 资产描述 |
+详见 [asset.md](asset.md)
