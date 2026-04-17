@@ -30,7 +30,7 @@ jobs:
         run: pip install jupyter-book
 
       - name: Build JupyterBook
-        run: jupyter-book build .
+        run: jupyter-book build . --output-dir _build/html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
