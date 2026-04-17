@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 7e48e7bf-e8f3-4652-83fa-667136690614
+  title: 量潮数字资产标准
+  description: 量潮数字资产管理工程标准
+  keywords:
+    - 数字资产
+    - 工程标准
+    - 量潮
+  authors:
+    - name: QuantTide
+  github: https://github.com/quanttide/quanttide-specification-of-asset-management
+  toc:
+    - file: index.md
+    - file: contract.md
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: site_logo.png
