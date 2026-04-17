@@ -1,6 +1,7 @@
 project: "量潮数字资产管理标准"
 copyright: "2026"
 author: "量潮科技"
+version: "v0.0.1"
 
 launch_buttons:
   colab: null
