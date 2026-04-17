@@ -1,7 +1,5 @@
 format: jb-book
 root: README
 
-parts:
-  - caption: 契约
-    chapters:
-      - file: contract
+chapters:
+  - file: contract
