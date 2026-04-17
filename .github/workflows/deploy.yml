@@ -27,15 +27,15 @@ jobs:
           python-version: "3.12"
 
       - name: Install JupyterBook
-        run: pip install jupyterbook
+        run: pip install jupyter-book
 
       - name: Build JupyterBook
-        run: jb build docs/specification
+        run: jb build .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/specification/_build/html
+          path: _build/html
 
   deploy:
     needs: build
