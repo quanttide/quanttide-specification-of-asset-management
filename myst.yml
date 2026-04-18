@@ -14,6 +14,12 @@ project:
   github: https://github.com/quanttide/quanttide-specification-of-asset-management
   toc:
     - file: index.md
-    - file: contract/schema.md
+    - title: 数字资产治理
+      children:
+        - file: governance/index.md
+        - file: governance/contract.md
+        - file: governance/discovery.md
+        - file: governance/registry.md
+        - file: governance/validation.md
 site:
   template: book-theme
