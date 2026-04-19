@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## [Unreleased]
+
+## [v0.0.2] - 2026-04-19
+
+### Added
+- 定义文档 (definition/index.md)
+
+### Changed
+- 简化发现文档
+- 重构契约文档结构
+- 简化治理首页内容
+
+### Fixed
+- 修复 myst.yml 配置错误
+
 ## [v0.0.1] - 2026-04-17
 
 ### Added
