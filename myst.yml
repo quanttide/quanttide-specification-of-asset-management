@@ -9,19 +9,18 @@ project:
     - 工程标准
     - 量潮
   authors:
-    - name:
-        given: QuantTide
+    - name: QuantTide
   github: https://github.com/quanttide/quanttide-specification-of-asset-management
   toc:
     - file: index.md
-    - title: 数字资产契约
+    - title: 定义
+      children:
+        - file: definition/index.md
+    - title: 契约
       children:
         - file: contract/index.md
         - file: contract/schema.md
         - file: contract/asset.md
         - file: contract/skill.md
-        - file: contract/discovery.md
-        - file: contract/registry.md
-        - file: contract/validation.md
 site:
   template: book-theme
