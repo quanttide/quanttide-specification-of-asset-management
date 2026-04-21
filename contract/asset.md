@@ -11,7 +11,17 @@
 - `category`: 可选。资产类别。
 - `path`: 可选。资产相对路径。
 
-YAML模板：
+## 资产类型
+
+常见资产类型：
+
+- `docs`: 文档资产
+- `code`: 代码资产
+- `config`: 配置资产
+- `experiment`: 实验资产
+
+
+## YAML示例
 
 ```yaml
 assets:
@@ -22,12 +32,3 @@ assets:
     category: 资产分类
     path: 资产路径
 ```
-
-## 资产类型
-
-常见资产类型：
-
-- `docs`: 文档资产
-- `code`: 代码资产
-- `config`: 配置资产
-- `experiment`: 实验资产

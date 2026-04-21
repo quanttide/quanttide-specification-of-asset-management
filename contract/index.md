@@ -18,7 +18,7 @@
 - `registry`: 推荐。注册配置。
 - `validation`: 推荐。验证配置。
 
-YAML模板：
+## YAML示例
 
 ```yaml
 # 契约标准版本：定义解析该文件应遵循哪套标准逻辑
@@ -39,15 +39,24 @@ skills:
     title: 技能名称
     description: 技能描述
 
-# 发现配置（可选）
+# 发现配置
 discovery:
-  # ... 发现配置
+  scope: ['.']
+  filter: 
+    excludes: 
+      # 过滤规则
+  maps:
+    <name>:
+      match: "<glob>"
+      assign: 
+        type: "<type>"
+        category: "category"
 
-# 注册配置（可选）
+# 注册配置
 registry:
   # ... 注册配置
 
-# 验证配置（可选）
+# 验证配置
 validation:
   # ... 验证配置
 ```
