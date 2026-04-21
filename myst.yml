@@ -19,8 +19,8 @@ project:
     - title: 契约
       children:
         - file: contract/index.md
-        - file: contract/schema.md
         - file: contract/asset.md
         - file: contract/skill.md
+        - file: contract/discovery.md
 site:
   template: book-theme
