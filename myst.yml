@@ -16,6 +16,7 @@ project:
     - title: 定义
       children:
         - file: definition/index.md
+        - file: definition/lifecycle.md
     - title: 契约
       children:
         - file: contract/index.md
