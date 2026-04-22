@@ -30,9 +30,8 @@
 
 分类映射的字段定义如下：
 
-- `name`: 必选。映射规则名称。
-- `match`: 必选。Glob 模式，用于识别文件。
-- `assign`: 推荐。命中后赋予资产的字段值。
+- 模式`pattern`: 必选。Glob 模式，用于识别文件。
+- 特征`traits`: 推荐。命中后赋予资产的字段值。
 
 赋值动作可选字段包括：
 
@@ -64,23 +63,19 @@ discovery:
       - "**/*.log"
       - "**/tmp/**"
   maps:
-    docs:
-      match: "**/*.{md,txt,pdf}"
+    - match: "**/*.{md,txt,pdf}"
       assign:
         type: docs
         
-    code:
-      match: "**/src/**/*.{py,go,java,js}"
+    - match: "**/src/**/*.{py,go,java,js}"
       assign:
         type: code
   
-    config:
-      match: "**/*.{yaml,yml,json,toml}"
+    - match: "**/*.{yaml,yml,json,toml}"
       assign:
         type: config
-  
-    data:
-      match: "**/*.{csv,parquet,avro}"
+
+    - match: "**/*.{csv,parquet,avro}"
       assign:
         type: data
 ```
