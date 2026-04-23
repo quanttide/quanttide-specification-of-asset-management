@@ -14,6 +14,7 @@
 - `version`: 推荐。资产版本。由用户根据需求自定义。
 - `assets`: 推荐。资产清单。
 - `skills`: 推荐。技能清单。
+- `workflows`: 推荐。工作流清单。
 - `discovery`: 推荐。发现配置。
 - `registry`: 推荐。注册配置。
 - `validation`: 推荐。验证配置。
@@ -38,6 +39,11 @@ skills:
   <name>:
     title: 技能名称
     description: 技能描述
+
+workflows:
+  <name>:
+    title: 工作流名称
+    description: 工作流描述
 
 # 发现配置
 discovery:
