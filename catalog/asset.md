@@ -9,10 +9,16 @@
 - `title`: 推荐，资产标题。
 - `description`: 可选，资产描述。
 - `category`: 推荐，资产类别。
-- `tags`: 可选，键值对标签，用于客户交付确认状态（如 submitted/ approved/ rejected）。
+- `tags`: 可选，键值对标签。
 - `content`: 可选，资产内容。
 - `created_at`: 可选，创建时间。
 - `updated_at`: 可选，更新时间。
+
+## 标签字段
+
+用户可以根据业务建模需要自定义标签。
+
+比如，用于客户交付确认状态，定义键为`delivery`，值为`submitted`、 `approved`、`rejected`。
 
 ## YAML 示例
 
