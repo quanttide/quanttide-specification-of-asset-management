@@ -9,7 +9,7 @@
 - `title`: 推荐，资产标题。
 - `description`: 可选，资产描述。
 - `category`: 推荐，资产类别。
-- `tags`: 可选，键值对标签，扩展分类如交付状态。
+- `tags`: 可选，键值对标签，用于对客交付状态（如 dev/ staging/ production）。
 - `content`: 可选，资产内容。
 - `created_at`: 可选，创建时间。
 - `updated_at`: 可选，更新时间。
@@ -24,7 +24,7 @@ asset:
   description: 资产描述
   category: 资产分类
   tags:
-    delivery: production
+    delivery: staging
   content: 资产内容
   created_at: "2026-01-01T00:00:00Z"
   updated_at: "2026-01-01T00:00:00Z"
